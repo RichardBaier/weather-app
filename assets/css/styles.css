@@ -6,10 +6,13 @@ header {
     text-align: center;
 }
 
+.content {
+    display: flex;
+    
+}
+
 .search {
-    background-color: lightgrey;
     min-height: 100vh;
-    margin: 10px;
 }
 
 .searchBox {
@@ -19,4 +22,13 @@ header {
 
 .searchBtn {
     margin-top: 10px;
+}
+
+.day-forecast{
+    background-color: rgb(101, 101, 223);
+    padding: 20px;
+    margin: 20px;
+    color: white;
+    border-radius: 10px;
+    width: 200px;
 }

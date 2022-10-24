@@ -12,24 +12,33 @@
     <header>
         <h1>Weather Forecast</h1>
     </header>
-    <section class="search col-3">
-        <div class="searchBox">
-            <h3>Enter a City:</h3>
-            <input id="searchInput" placeholder="Enter a city">
-            <button class="searchBtn">Search</button>
-        </div>
-        <div class="searchHistory">
+    <div class="row">
+        <section class="search col-3">
+            <div id="searchBox" class="m-3 p-2 border-bottom border-dark">
+                <h3 class="m-2 mb-3">Enter a City:</h3>
+                <input id="searchInput" class="form-control m-2" placeholder="Enter a city">
+                <button class="searchBtn m-2 mb-3">Search</button>
+            </div>
+            <div class="searchHistory">
+                <h2 class="m-2 mb-3">Search History</h2>
+                <div id="history-container">
+    
+                </div>
+            </div>
+        </section>
+        <section id="content col-9">
+            <h1 id="today-title">Todays Forecast:</h1>
+            <div id="today-content" class="border border-dark">
+    
+            </div>
+            <div id="forecast">
+                <h2>5 day forecast:</h2>
+                <div id="forecast-container" >
 
-        </div>
-    </section>
-    <section class="display col-9">
-        <div class="weatherNow">
-
-        </div>
-        <div class="fiveDays">
-
-        </div>
-    </section>
+                </div>
+            </div>
+        </section>
+    </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <script src="./assets/js/script.js"></script>

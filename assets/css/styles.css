@@ -1,0 +1,22 @@
+header {
+    background-color: rgb(57, 57, 237);
+    margin: 10px;
+    color: white;
+    display: flex;
+    text-align: center;
+}
+
+.search {
+    background-color: lightgrey;
+    min-height: 100vh;
+    margin: 10px;
+}
+
+.searchBox {
+    display: flex;
+    flex-direction: column;
+}
+
+.searchBtn {
+    margin-top: 10px;
+}

@@ -49,7 +49,7 @@ function fiveData(data, city) {
     const daily = data.daily;
     console.log(daily)
 
-    $('#forecast-container').html('');
+    $('#fiveDayForecast').html('');
 
     daily.forEach((day, index) => {
         if(index < 5) {
@@ -66,8 +66,12 @@ function fiveData(data, city) {
                                 <p>Humidity: ${i.humidity}%</p>
                                 </div>` 
             
-            $('#forecast-container').append(dailyHtml);
+            $('#fiveDayForecast').append(dailyHtml);
         }
     });
 }
 // Function to add search to search history
+
+function addSearchHistory() {
+    
+}

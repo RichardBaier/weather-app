@@ -6,11 +6,6 @@ header {
     text-align: center;
 }
 
-.content {
-    display: flex;
-    
-}
-
 .search {
     min-height: 100vh;
 }
